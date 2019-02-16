@@ -8,4 +8,4 @@ class Restaurant(models.Model):
     logo = models.ImageField(upload_to='restaurant_logos', null=True, blank=True)
 
     def __str__(self):
-    	return self.name
+        return self.name
